@@ -24,9 +24,9 @@ function makeDropdown(input) {
   }
 
   function changeHandler(event) {
-    const selectionIndex = event.target.selectedIndex;
-    s1.selectedIndex = selectionIndex;
-    s2.selectedIndex = selectionIndex;
+    const index = event.target.selectedIndex;
+    s1.selectedIndex = index;
+    s2.selectedIndex = index;
   }
 
   s1.onchange = changeHandler;
