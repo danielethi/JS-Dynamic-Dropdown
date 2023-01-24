@@ -13,7 +13,7 @@ let s1 = document.createElement("select");
 let s2 = document.createElement("select");
 
 function makeDropdown(input) {
-  for (val of Object.keys(input)) {
+  for (let val of Object.keys(input)) {
     const o1 = document.createElement("option");
     const o2 = document.createElement("option");
     o1.textContent = val;
