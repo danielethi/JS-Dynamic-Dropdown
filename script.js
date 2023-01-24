@@ -8,7 +8,6 @@ const state = {
   g: "golang",
 };
 
-
 let d = document.createElement("div");
 let s1 = document.createElement("select");
 let s2 = document.createElement("select");
