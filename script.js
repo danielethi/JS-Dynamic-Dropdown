@@ -36,6 +36,18 @@ const makeDropdown = (input) => {
 
 makeDropdown(state);
 
+// <select name="languages" onchange="func()" id="character">
+//     <option value="a">a</option>
+//     <option value="b">b</option>
+//     <option value="c">c</option>
+//     <option value="d">d</option>
+//   </select>
+//   <select name="languages" onchange="func2()" id="word">
+//     <option value="a">apple</option>
+//     <option value="b">bad</option>
+//     <option value="c">cat</option>
+//     <option value="d">dog</option>
+//   </select>
 
 //optional in Index.html file
 //   <select name="languages" onchange="func()" id="character">
