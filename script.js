@@ -35,3 +35,32 @@ const makeDropdown = (input) => {
 };
 
 makeDropdown(state);
+
+
+//optional in Index.html file
+//   <select name="languages" onchange="func()" id="character">
+//     <option value="a">a</option>
+//     <option value="b">b</option>
+//     <option value="c">c</option>
+//     <option value="d">d</option>
+//   </select>
+//   <select name="languages" onchange="func2()" id="word">
+//     <option value="a">apple</option>
+//     <option value="b">bad</option>
+//     <option value="c">cat</option>
+//     <option value="d">dog</option>
+//   </select>
+
+//   <script type="text/javascript">
+//     let func = () => {
+//       let el = document.getElementById("character");
+//       let tar = document.getElementById("word");
+//       tar.value = el.value;
+//     }
+
+//     let func2 = () => {
+//       let el = document.getElementById("character");
+//       let tar = document.getElementById("word");
+//       el.value = tar.value;
+//     }
+//   </script>
